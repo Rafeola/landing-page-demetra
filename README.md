@@ -28,6 +28,7 @@ La pagina si articola in sei sezioni: hero con prodotto in evidenza, quattro pun
 | **Animazioni** | Ingresso scaglionato degli elementi e micro-interazioni su hover, con `transition` e `@keyframes` |
 | **Accessibilità** | Markup semantico, attributi `aria-label` e `aria-hidden`, immagini decorative escluse dalla lettura assistiva, `@media (prefers-reduced-motion: reduce)` che disattiva tutte le animazioni |
 | **Dettagli** | Icone SVG inline (nessuna icon-font da caricare), favicon, meta description, `preconnect` verso Google Fonts |
+| **Asset visivi** | Logo, immagine di prodotto e sfondo generati con strumenti AI e integrati nel layout: il progetto copre anche la produzione dei materiali grafici |
 
 ## Il menu mobile senza JavaScript
 
@@ -97,6 +98,16 @@ Riconoscere cosa il progetto non copre fa parte dell'esercizio:
 - **Nessun preprocessore**: il CSS è scritto a mano in un unico file. Con Sass la stessa struttura sarebbe divisa in partial e più agevole da mantenere man mano che cresce.
 
 Diversi di questi punti sono stati affrontati nel progetto successivo del percorso, il mio sito portfolio personale.
+
+## Crediti
+
+Immagini di prodotto, sfondo e logo: generate con strumenti di intelligenza
+artificiale e selezionate da me per questo progetto. Demetra è un brand di
+fantasia: nessuna delle immagini ritrae prodotti reali.
+
+Caratteri tipografici: [Inter](https://fonts.google.com/specimen/Inter) e
+[Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond),
+Google Fonts (SIL Open Font License).
 
 ## Autore
 
