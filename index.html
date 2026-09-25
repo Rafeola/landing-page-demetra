@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demetra | Calzature Sostenibili</title>
+    <meta name="description" content="Demetra crea calzature sostenibili con materiali organici, design contemporaneo e processi innovativi a basso impatto ambientale.">
+    <link rel="icon" href="assets/img/logo-demetra.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Checkbox invisibile che pilota il menu mobile (CSS puro, nessun JS) -->
+    <input type="checkbox" id="nav-toggle-checkbox" class="nav-toggle-checkbox">
+
+    <nav class="navbar" id="navbar">
+        <a href="#top" class="logo-text">DEMETRA</a>
+        <a href="#top" class="logo-img">
+            <img src="assets/img/logo-demetra.png" alt="Logo Demetra">
+        </a>
+        <ul class="nav-menu">
+            <li><a href="#about">Chi siamo</a></li>
+            <li><a href="#innovation">Innovazione</a></li>
+            <li><a href="#urban">Collezioni</a></li>
+            <li><a href="#contact">Contatti</a></li>
+        </ul>
+        <a href="#urban" class="nav-btn">Scopri la collezione</a>
+        <label for="nav-toggle-checkbox" class="nav-toggle" aria-label="Apri menu">
+            <span></span><span></span><span></span>
+        </label>
+    </nav>
+
+    <header class="hero" id="top">
+        <div class="hero-bg">
+            <img src="assets/img/sfondo-demetra.png" alt="" aria-hidden="true">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="eyebrow hero-anim-1">Calzature Sostenibili</span>
+            <h1 class="hero-anim-2">
+                Design.<br>
+                Comfort.<br>
+                Rispetto per il<br>
+                <em>pianeta.</em>
+            </h1>
+            <p class="hero-sub hero-anim-3">
+                Una nuova idea di calzatura che unisce estetica, comfort
+                e attenzione concreta all'ambiente.
+            </p>
+            <div class="hero-actions hero-anim-4">
+                <a href="#urban" class="btn btn-primary">Scopri la collezione</a>
+                <a href="#about" class="btn btn-ghost">La nostra storia</a>
+            </div>
+        </div>
+        <div class="hero-shoe hero-anim-3">
+            <img src="assets/img/scarpa.png" alt="Sneaker sostenibile Demetra">
+            <div class="hero-badge">
+                <strong>100% origine naturale</strong>
+                <p>Materiali organici e processi innovativi.</p>
+            </div>
+        </div>
+        <a href="#features" class="scroll-hint" aria-label="Scorri verso il basso">
+            <span class="scroll-line"></span>
+        </a>
+    </header>
+
+    <main>
+        <section class="features" id="features" aria-label="Caratteristiche principali">
+            <article class="feature-item reveal">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <h3>Materiali organici</h3>
+                <p>Materie prime di origine naturale per calzature più responsabili e vicine alla natura.</p>
+            </article>
+            <article class="feature-item reveal reveal-delay-1">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/><path d="M9 12l2 2 4-4"/></svg>
+                </div>
+                <h3>Ecosostenibili</h3>
+                <p>Ogni processo riduce sprechi, impatto ambientale e consumo di risorse al minimo.</p>
+            </article>
+            <article class="feature-item reveal reveal-delay-2">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <h3>Comfort quotidiano</h3>
+                <p>Linee essenziali, leggerezza e vestibilità per ogni passo, ogni giorno.</p>
+            </article>
+            <article class="feature-item reveal reveal-delay-3">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+                </div>
+                <h3>Per il pianeta</h3>
+                <p>Stile e responsabilità che camminano insieme verso un futuro più verde.</p>
+            </article>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-visual reveal">
+                <div class="about-stat about-stat-standalone">
+                    <strong>2026</strong>
+                    <span>Anno di fondazione</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="eyebrow eyebrow-dark reveal">La nostra visione</span>
+                <h2 class="reveal reveal-delay-1">Da dove nasce l'idea</h2>
+                <p class="reveal reveal-delay-1">Dopo anni trascorsi nel mondo del fast fashion, è nata una domanda sempre più forte: che prezzo sta pagando il pianeta per tutta questa velocità?</p>
+                <p class="reveal reveal-delay-2">Da questa consapevolezza prende forma Demetra — un progetto che vuole trasformare il modo di pensare la calzatura, unendo design, qualità e sostenibilità in ogni singolo paio.</p>
+                <div class="about-values reveal reveal-delay-2">
+                    <div class="value-row">
+                        <div class="value-item"><h4>Visione</h4><p>Ispirare un cambiamento autentico attraverso una moda più consapevole.</p></div>
+                        <div class="value-item"><h4>Qualità</h4><p>Calzature curate nei dettagli, pensate per durare nel tempo.</p></div>
+                    </div>
+                    <div class="value-row">
+                        <div class="value-item"><h4>Innovazione</h4><p>Soluzioni nuove che valorizzino materiali organici e di recupero.</p></div>
+                        <div class="value-item"><h4>Impatto</h4><p>Ridurre l'impronta ambientale senza rinunciare al comfort.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="innovation" class="innovation">
+            <div class="innovation-overlay"></div>
+            <div class="innovation-content">
+                <div class="innovation-text">
+                    <span class="eyebrow eyebrow-light reveal">Innovazione</span>
+                    <h2 class="reveal reveal-delay-1">Innovazione che nasce dalla natura</h2>
+                    <p class="reveal reveal-delay-1">Le calzature Demetra sono realizzate con materiali di origine organica, anche ottenuti attraverso processi innovativi come la bio-polimerizzazione della vinaccia — trasformando gli scarti in nuove risorse.</p>
+                    <p class="reveal reveal-delay-2">Ogni scelta produttiva è ripensata per ridurre l'impatto e promuovere una filiera più attenta, responsabile e trasparente.</p>
+                </div>
+                <div class="certifications reveal reveal-delay-2">
+                    <article class="cert"><h3>Società Benefit</h3><p>Impegno concreto verso il bene comune e il valore condiviso.</p></article>
+                    <article class="cert"><h3>B-Corp Certified</h3><p>Un modello d'impresa orientato a sostenibilità, etica e trasparenza.</p></article>
+                    <article class="cert"><h3>GOTS · GRS · FSC</h3><p>Standard riconosciuti per materiali e filiere più responsabili.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="urban" class="urban">
+            <div class="urban-content reveal">
+                <span class="eyebrow eyebrow-dark">In arrivo</span>
+                <h2>Collezione <em>Urban</em></h2>
+                <p>Urban è la collezione pensata per chi vive la città senza compromessi: versatile, essenziale, comoda e rispettosa dell'ambiente. Ogni modello nasce da un equilibrio tra forma e responsabilità.</p>
+                <a href="#contact" class="btn btn-primary">Scopri in anteprima</a>
+            </div>
+            <div class="urban-visual reveal reveal-delay-1">
+                <img src="assets/img/scarpa.png" alt="Collezione Urban Demetra">
+            </div>
+        </section>
+
+        <section class="cta-band">
+            <div class="cta-inner reveal">
+                <span class="eyebrow eyebrow-light">Demetra</span>
+                <h2>Cammina nella giusta direzione</h2>
+                <p>Una calzatura può essere bella, comoda e responsabile. Demetra nasce per dimostrarlo.</p>
+                <a href="#contact" class="btn btn-outline">Contattaci ora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="assets/img/logo-demetra.png" alt="Logo Demetra" class="footer-logo">
+                <p>Calzature sostenibili realizzate con materiali organici e processi innovativi a basso impatto.</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                </div>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <h4>Menu</h4>
+                <a href="#top">Home</a>
+                <a href="#about">Chi siamo</a>
+                <a href="#innovation">Innovazione</a>
+                <a href="#urban">Collezioni</a>
+            </nav>
+            <div class="footer-contact">
+                <h4>Contatti</h4>
+                <a href="mailto:info@demetra.it">info@demetra.it</a>
+                <a href="tel:+39123456789">+39 123 456 789</a>
+                <p>Roma, Italia</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Demetra — Tutti i diritti riservati</span>
+            <span>Calzature sostenibili · Roma, Italia</span>
+        </div>
+    </footer>
+
+</body>
+</html>
