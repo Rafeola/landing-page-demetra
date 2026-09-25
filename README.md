@@ -4,7 +4,7 @@
 
 **[→ Guarda la demo live](https://rafeola.github.io/landing-page-demetra/)**
 
-![Demetra — versione desktop](docs/demetra-desktop.jpg)
+![Demetra — versione desktop](demetra-desktop.jpg)
 
 ---
 
