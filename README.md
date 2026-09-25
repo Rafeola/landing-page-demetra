@@ -98,11 +98,6 @@ Riconoscere cosa il progetto non copre fa parte dell'esercizio:
 
 Diversi di questi punti sono stati affrontati nel progetto successivo del percorso, il mio sito portfolio personale.
 
-## Crediti
-
-Immagini di prodotto e di sfondo: *[indicare la fonte — materiale fornito da Start2Impact / immagini stock con licenza X]*.
-Caratteri tipografici: [Inter](https://fonts.google.com/specimen/Inter) e [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond), Google Fonts (SIL Open Font License).
-
 ## Autore
 
 **Raffaele Feola** — in formazione su Full Stack Development & AI Agents presso Start2Impact University.
